@@ -20,7 +20,7 @@ while [ $counter -lt $max_retries ]; do
   if [ $? -eq 0 ]; then
     break
   else
-    echo "$counter / $max_retries : failed, sleep 3s"
+    echo -e "\n$counter / $max_retries : failed, sleep 3s\n"
     sleep 3
     counter=$((counter + 1))
   fi
