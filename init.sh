@@ -14,11 +14,9 @@ cd $DIR/src/_/Pg/init
 counter=0
 max_retries=99
 
+set +e
 while [ $counter -lt $max_retries ]; do
-  set +e
   ./uint.coffee
-  set -e
-
   if [ $? -eq 0 ]; then
     break
   else
@@ -27,6 +25,7 @@ while [ $counter -lt $max_retries ]; do
     counter=$((counter + 1))
   fi
 done
+set -e
 
 cd $DIR/src/_/Redis/init
 ./merge.coffee
