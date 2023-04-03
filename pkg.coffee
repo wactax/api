@@ -37,6 +37,7 @@ pnpm_install = (dir)=>
       )
     {dir} = i
     if i
+      console.log {pkg,dir},i
       for d from dir.split(' ')
         PKG_MOD.push pkg+'/'+d
 
