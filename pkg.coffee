@@ -35,11 +35,11 @@ pnpm_install = (dir)=>
         join '../../pkg',pkg,'api'
         dp
       )
-    {dir} = i
     if i
-      console.log {pkg,dir},i
-      for d from dir.split(' ')
-        PKG_MOD.push pkg+'/'+d
+      {dir} = i
+      if dir
+        for d from dir.split(' ')
+          PKG_MOD.push pkg+'/'+d
 
   for i from PKG_MOD.concat [
     ...PKG_YML.keys()
