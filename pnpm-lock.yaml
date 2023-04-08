@@ -25,6 +25,9 @@ dependencies:
   '@w5/msgpack':
     specifier: ^0.0.1
     version: 0.0.1
+  '@w5/pg':
+    specifier: ^0.0.5
+    version: 0.0.5
   '@w5/read':
     specifier: ^0.0.1
     version: 0.0.1
@@ -569,6 +572,14 @@ packages:
 
   /@w5/node_cls@0.0.1:
     resolution: {integrity: sha512-yU5bdoHubJyTuO6rOomlXuQsIXETysRKF3xtjx7kw2S0u8GZngtRfpcPv75AP/jCwoLdDL/sDb1TILpD+kUiGw==}
+    dev: false
+
+  /@w5/pg@0.0.5:
+    resolution: {integrity: sha512-MukQtAhq8HG+12u0dGpUaf1asW9aMgZQ5vzkhdVlK+rocKp2bSB5sTU1dmCg2TNyr19P0VjQGAxceEfsYqWxZQ==}
+    dependencies:
+      chalk: 5.2.0
+      postgres: 3.3.4
+      prexit: 2.2.0
     dev: false
 
   /@w5/read@0.0.1:
@@ -1709,6 +1720,10 @@ packages:
       load-json-file: 4.0.0
     dev: false
 
+  /postgres@3.3.4:
+    resolution: {integrity: sha512-XVu0+d/Y56pl2lSaf0c7V19AhAEfpVrhID1IENWN8nf0xch6hFq6dAov5dtUX6ZD46wfr1TxvLhxLtV8WnNsOg==}
+    dev: false
+
   /prebuild-install@6.1.4:
     resolution: {integrity: sha512-Z4vpywnK1lBg+zdPCVCsKq0xO66eEV9rWo2zrROGGiRS4JtueBOdlB1FnY8lcy7JsUud/Q3ijUxyWN26Ika0vQ==}
     engines: {node: '>=6'}
@@ -1750,6 +1765,10 @@ packages:
 
   /prexit@2.0.2:
     resolution: {integrity: sha512-v/0brPkXyAftki9cltOs7gPPxIYhpntmrRUJMn9s/A82kS23Z4fZ2pHTKiJrEVgIqjSplO9BIpJqm+SC0WJaCQ==}
+    dev: false
+
+  /prexit@2.2.0:
+    resolution: {integrity: sha512-MrkWg5/0XFTM0txQtPFZlhk3qhMtyd+bP1vXJKQqOOYcdQ8/Wl5+G0Utxv69TLfH0PMm/ushn0YTYQ2SH2WzJg==}
     dev: false
 
   /process-nextick-args@2.0.1:
