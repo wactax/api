@@ -17,7 +17,7 @@ pnpm_install = (dir)=>
     ).length
       if not existsSync join(dir, 'node_modules')
         console.log '>', dir
-        await $"pnpm i --frozen-lockfile -C #{dir}"
+        await $"pnpm i -C #{dir}"
   return
 
 < default main = =>
