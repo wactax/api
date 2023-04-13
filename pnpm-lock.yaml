@@ -26,8 +26,8 @@ dependencies:
     specifier: ^0.0.1
     version: 0.0.1
   '@w5/pg':
-    specifier: ^0.0.5
-    version: 0.0.5
+    specifier: ^0.0.7
+    version: 0.0.7
   '@w5/read':
     specifier: ^0.0.1
     version: 0.0.1
@@ -94,6 +94,9 @@ dependencies:
   msgpackr:
     specifier: ^1.8.5
     version: 1.8.5
+  postgres:
+    specifier: ^3.3.4
+    version: 3.3.4
   prexit:
     specifier: ^2.2.0
     version: 2.2.0
@@ -574,12 +577,8 @@ packages:
     resolution: {integrity: sha512-yU5bdoHubJyTuO6rOomlXuQsIXETysRKF3xtjx7kw2S0u8GZngtRfpcPv75AP/jCwoLdDL/sDb1TILpD+kUiGw==}
     dev: false
 
-  /@w5/pg@0.0.5:
-    resolution: {integrity: sha512-MukQtAhq8HG+12u0dGpUaf1asW9aMgZQ5vzkhdVlK+rocKp2bSB5sTU1dmCg2TNyr19P0VjQGAxceEfsYqWxZQ==}
-    dependencies:
-      chalk: 5.2.0
-      postgres: 3.3.4
-      prexit: 2.2.0
+  /@w5/pg@0.0.7:
+    resolution: {integrity: sha512-exuo6Al7D9bmdMtNR/2xfd91ydSOJd9lDjVejFpjTOuXpdevSCjlj7/Eg7XOWpBGGEQrT8sMqjV+CnUHLOyhBA==}
     dev: false
 
   /@w5/read@0.0.1:

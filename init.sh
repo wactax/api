@@ -4,6 +4,17 @@ DIR=$(dirname $(realpath "$0"))
 cd $DIR
 set -ex
 
+if ! [ -x "$(command -v cargo)" ]; then
+  PATH_add $HOME/.cargo/bin
+  if ! [ -x "$(command -v cargo)" ]; then
+    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+  fi
+fi
+
+if ! [ -x "$(command -v sd)" ]; then
+  cargo install sd
+fi
+
 export NODE_PATH=$DIR/node_modules:$NODE_PATH
 
 cd $DIR
