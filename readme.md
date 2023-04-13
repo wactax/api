@@ -1,3 +1,7 @@
-<!-- EDIT /Users/z/user/captcha-api/readme.md -->
+备份
 
-# captcha-api
+./src/_/Pg/gen/dump.coffee
+
+导入
+
+./init.sh
