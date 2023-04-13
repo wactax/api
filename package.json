@@ -7,8 +7,8 @@
     "@w5/yml": "^0.0.1",
     "chokidar": "^3.5.3",
     "coffeescript": "^2.7.0",
-    "concurrently": "^7.6.0",
-    "esbuild": "^0.17.12",
+    "concurrently": "^8.0.1",
+    "esbuild": "^0.17.16",
     "fs-extra": "^11.1.1",
     "zx": "^7.2.1"
   },
@@ -29,7 +29,7 @@
     "@w5/ru": "^0.0.38",
     "@w5/split": "^0.0.1",
     "@w5/strbool": "^0.0.1",
-    "@w5/time": "^0.0.1",
+    "@w5/time": "^0.0.2",
     "@w5/u8": "^0.0.1",
     "@w5/ulb": "^0.0.1",
     "@w5/uridir": "^0.0.1",
@@ -44,8 +44,8 @@
     "lodash-es": "^4.17.21",
     "marked": "^4.3.0",
     "msgpackr": "^1.8.5",
-    "prexit": "^2.0.2",
-    "ua-parser-js": "^1.0.34"
+    "prexit": "^2.2.0",
+    "ua-parser-js": "^1.0.35"
   },
   "version": "0.0.0",
   "license": "Apache‑2.0",
