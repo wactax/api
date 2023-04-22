@@ -27,7 +27,6 @@ max_retries=99
 
 set +e
 while [ $counter -lt $max_retries ]; do
-  ./uint.coffee
   if [ $? -eq 0 ]; then
     break
   else
