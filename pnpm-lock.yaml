@@ -26,8 +26,8 @@ dependencies:
     specifier: ^0.0.1
     version: 0.0.1
   '@w5/pg':
-    specifier: ^0.0.16
-    version: 0.0.16
+    specifier: ^0.0.18
+    version: 0.0.18
   '@w5/read':
     specifier: ^0.0.1
     version: 0.0.1
@@ -580,9 +580,10 @@ packages:
     resolution: {integrity: sha512-yU5bdoHubJyTuO6rOomlXuQsIXETysRKF3xtjx7kw2S0u8GZngtRfpcPv75AP/jCwoLdDL/sDb1TILpD+kUiGw==}
     dev: false
 
-  /@w5/pg@0.0.16:
-    resolution: {integrity: sha512-F60pZrA5QBui/KmWTfQOHfO9uPap64oBKh2UcmtNnqG7J5Yxx/zH9mrzHyB9WrxyzqrXQXDysM6qAstEUyw8aQ==}
+  /@w5/pg@0.0.18:
+    resolution: {integrity: sha512-tzVfER5/ZsMA5HCzzZfiorauIrJDl9qyO+q3eKpUiMssfgQ4wIBeyJwElUpeklw3tt47jFZd9LHddaajrk8JtA==}
     dependencies:
+      '@w5/write': 0.0.1
       postgres: 3.3.4
       prexit: 2.2.0
     dev: false
