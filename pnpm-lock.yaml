@@ -26,8 +26,8 @@ dependencies:
     specifier: ^0.0.1
     version: 0.0.1
   '@w5/pg':
-    specifier: ^0.0.23
-    version: 0.0.23
+    specifier: ^0.0.31
+    version: 0.0.31
   '@w5/read':
     specifier: ^0.0.1
     version: 0.0.1
@@ -588,8 +588,8 @@ packages:
     resolution: {integrity: sha512-R6+0JR5p6DT3tyT034dW/Qq6m6rKIoW/c1WO0q4Vrw0qyQFDKY+xUlKAvJREWsY/Y4UGCyz8x3hciMJ4g6Wu5g==}
     dev: false
 
-  /@w5/pg@0.0.23:
-    resolution: {integrity: sha512-p/So8IkYK3/9awo/5JxoNlkrC91r/tdUTSQ3xIhwWG1KG2g09EDnptKpOGpVkiqZ6XPTOInhEntD+GsQWPm8Ow==}
+  /@w5/pg@0.0.31:
+    resolution: {integrity: sha512-+//A08Lg+YmzmI2zicfNsJ1fK8E2l287xLXVm2SaVxGCPdKJv5TsIFDmaSOzZyrMAF/G3HjpztuBJKXWIb4xpQ==}
     dependencies:
       '@w5/onexit': 0.0.3
       '@w5/write': 0.0.1
