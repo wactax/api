@@ -43,9 +43,9 @@ dependencies:
   '@w5/retry':
     specifier: ^0.0.1
     version: 0.0.1
-  '@w5/lib':
-    specifier: ^0.0.38
-    version: 0.0.38
+  '@w5/ru':
+    specifier: link:/Users/z/wac.tax/ru/ru
+    version: link:../ru/ru
   '@w5/sleep':
     specifier: ^0.0.1
     version: 0.0.1
@@ -583,10 +583,6 @@ packages:
       msgpackr: 1.9.1
     dev: false
 
-  /@w5/node_cls@0.0.1:
-    resolution: {integrity: sha512-yU5bdoHubJyTuO6rOomlXuQsIXETysRKF3xtjx7kw2S0u8GZngtRfpcPv75AP/jCwoLdDL/sDb1TILpD+kUiGw==}
-    dev: false
-
   /@w5/onexit@0.0.3:
     resolution: {integrity: sha512-R6+0JR5p6DT3tyT034dW/Qq6m6rKIoW/c1WO0q4Vrw0qyQFDKY+xUlKAvJREWsY/Y4UGCyz8x3hciMJ4g6Wu5g==}
     dev: false
@@ -623,78 +619,6 @@ packages:
     dependencies:
       '@w5/caller_line': 0.0.1
       '@w5/sleep': 0.0.1
-
-  /@w5/lib-arm64-darwin@0.0.38:
-    resolution: {integrity: sha512-jfOxiEPnne4UklxgWNaUAMWi2BzLwMlMheIEs73hJCuGecyjiKIoVkDneNmv5uQMFtci0qvxzmHBo0EnHy8T+A==}
-    cpu: [arm64]
-    os: [darwin]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  /@w5/lib-arm64-linux-glibc@0.0.38:
-    resolution: {integrity: sha512-PISmmudMKZtyMKTvBsWU/8fJ7TBRzp0r+sP8jSX2+glSamj0BpOP7kg2AAJeSoyqapYutHM+TgCKO2ZF8IJhXw==}
-    cpu: [arm64]
-    os: [linux]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  /@w5/lib-arm64-linux-musl@0.0.38:
-    resolution: {integrity: sha512-TV+chYyJbKRKVPEs/sQ4qDUbJRGj5ZVB3Zbgqiu92XTROZrnsX6bGNoKhGuiH3ZI92vYkokiAFS/KNM9NYPpEg==}
-    cpu: [arm64]
-    os: [linux]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  /@w5/lib-x64-darwin@0.0.38:
-    resolution: {integrity: sha512-iBnH22dIn1f0YJsDcvEQgV0VG9M1k6Z0IzdnBHNTehivjhHHLg1SjbRNd2u/yEz4Gj5iKWGNSgFGjpp/4ESYtA==}
-    cpu: [x64]
-    os: [darwin]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  /@w5/lib-x64-linux-glibc@0.0.38:
-    resolution: {integrity: sha512-vu4XjBAujNNRHyiUmPpCKX0aIiAdsMwaWECtRZJx2AdCJg3wTkg/O66bpFAZiA2mgHbEe54x4HOysRGUwkzdpg==}
-    cpu: [x64]
-    os: [linux]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  /@w5/lib-x64-linux-musl@0.0.38:
-    resolution: {integrity: sha512-tUTgCWVPDHcRx9ncRS/FUdt4jKYWmWsyHjdJPq/I/4KKJ3RBXDN2hRggUrcBjfJlUSa6fGNW8LTYK1sXj3YHZQ==}
-    cpu: [x64]
-    os: [linux]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  /@w5/lib-x64-win32@0.0.38:
-    resolution: {integrity: sha512-IAYpJXph9GbLWjxJwCwfoGIuQeTCgHIDsGwzekwMEcnIwrvA7GgIAUhokioRw6ccdE7pjlOoQzeoV9ODCrYNrQ==}
-    cpu: [x64]
-    os: [win32]
-    requiresBuild: true
-    dev: false
-    optional: true
-
-  /@w5/lib@0.0.38:
-    resolution: {integrity: sha512-JudXuOhvNVx477ykTnNf5qqx0M6XJo3cWYRR0Gp+LYLgFQOe1omi2qMX1+n44FGpi0ma0csUWCTMfO9R+l6TvQ==}
-    cpu: [arm64, x64]
-    os: [darwin, win32, linux]
-    dependencies:
-      '@w5/node_cls': 0.0.1
-    optionalDependencies:
-      '@w5/lib-arm64-darwin': 0.0.38
-      '@w5/lib-arm64-linux-glibc': 0.0.38
-      '@w5/lib-arm64-linux-musl': 0.0.38
-      '@w5/lib-x64-darwin': 0.0.38
-      '@w5/lib-x64-linux-glibc': 0.0.38
-      '@w5/lib-x64-linux-musl': 0.0.38
-      '@w5/lib-x64-win32': 0.0.38
-    dev: false
 
   /@w5/sleep@0.0.1:
     resolution: {integrity: sha512-GjLtl9qx0bYhJO9kUIHkkmaApa6Uvqr93sPYg6obAxSR5+OKYtRTqC+fZZ0gMov+TKchNGvZFKSS7slA3BAVPw==}
