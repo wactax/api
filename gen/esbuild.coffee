@@ -9,7 +9,7 @@ ROOT = dirname _ROOT
 LIB = join ROOT, 'lib'
 API = join LIB,'api'
 node_modules = join ROOT,'node_modules'
-external = '!/CONF !/CONST/PG_UINT.js @w5/ru ../../../ru/ru/lib/lib.node'.split(' ')
+external = '!/CONF !/CONST/PG_UINT.js @w5/lib ../../../ru/ru/lib/lib.node'.split(' ')
 
 # console.log external
 
