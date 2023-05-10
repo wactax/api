@@ -20,8 +20,8 @@ dependencies:
     specifier: ^0.0.1
     version: 0.0.1
   '@w5/lib':
-    specifier: link:/Users/z/git/lib
-    version: link:../../git/lib
+    specifier: link:/Users/z/wac.tax/rust/lib
+    version: link:../rust/lib
   '@w5/loader':
     specifier: ^0.0.3
     version: 0.0.3
@@ -46,9 +46,6 @@ dependencies:
   '@w5/retry':
     specifier: ^0.0.1
     version: 0.0.1
-  '@w5/ru':
-    specifier: link:/Users/z/wac.tax/ru/ru
-    version: link:../ru/ru
   '@w5/sleep':
     specifier: ^0.0.1
     version: 0.0.1
@@ -88,6 +85,9 @@ dependencies:
   '@w5/write':
     specifier: ^0.0.1
     version: 0.0.1
+  '@w5/xedis':
+    specifier: link:/Users/z/wac.tax/rust/xedis
+    version: link:../rust/xedis
   _:
     specifier: link:./lib/_
     version: link:lib/_
