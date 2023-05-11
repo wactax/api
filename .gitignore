@@ -5,7 +5,6 @@ bun.lockb
 
 /sh/rsync.js
 
-/lib/
 /src/*
 
 !/src/*.js
@@ -16,3 +15,5 @@ pkg.yml
 src/PKG.js
 CONF.js
 *.pid
+
+/lib/
