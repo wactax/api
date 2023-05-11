@@ -3,7 +3,7 @@
 DIR=$(dirname $(realpath "$0"))
 
 cd $DIR
-echo $$ > .dev.pid
+echo $$ >.dev.pid
 
 rm -rf lib
 set -ex
@@ -16,4 +16,3 @@ exec bunx concurrently \
   --raw \
   "$rsync_js" \
   "./sh/dev.sh"
-

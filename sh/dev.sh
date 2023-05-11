@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 DIR=$(dirname $(realpath "$0"))
-echo $$ > $DIR/.dev.pid
+echo $$ >$DIR/.dev.pid
 
 ROOT=$(dirname $DIR)
 
