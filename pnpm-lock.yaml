@@ -32,8 +32,8 @@ dependencies:
     specifier: ^0.0.1
     version: 0.0.1
   '@w5/pg':
-    specifier: ^0.0.32
-    version: 0.0.32
+    specifier: ^0.0.33
+    version: 0.0.33
   '@w5/read':
     specifier: ^0.0.1
     version: 0.0.1
@@ -98,8 +98,8 @@ dependencies:
     specifier: ^4.17.21
     version: 4.17.21
   marked:
-    specifier: ^5.0.1
-    version: 5.0.1
+    specifier: ^5.0.2
+    version: 5.0.2
   msgpackr:
     specifier: ^1.9.1
     version: 1.9.1
@@ -608,8 +608,8 @@ packages:
     resolution: {integrity: sha512-uXEvVXgEStwO7JtJOJE4rUAcLn7Uf3gUCAcCvls0koPQKXALq40ptJTcNeEmUlya4wNj2OUmbA1zVxMtdWj5yA==}
     dev: false
 
-  /@w5/pg@0.0.32:
-    resolution: {integrity: sha512-Z6hNjHDfkllUgJhlrz3S2nj/VopKMualBwbOPBcf8Dhzl4UAvWrHEe+li4lm4GQpq+maWVv2eV+ra/NEiWjvXw==}
+  /@w5/pg@0.0.33:
+    resolution: {integrity: sha512-sA1hSt73G9/GI2cMRDbAUTKH14jrKUhJFlaW3DYimeK5FaHwb5wlFdS7GkULSsOlrWfT0haWnzdBy3XuLY29ng==}
     dependencies:
       '@w5/onexit': 0.0.4
       '@w5/write': 0.0.1
@@ -1478,8 +1478,8 @@ packages:
     resolution: {integrity: sha512-CkYQrPYZfWnu/DAmVCpTSX/xHpKZ80eKh2lAkyA6AJTef6bW+6JpbQZN5rofum7da+SyN1bi5ctTm+lTfcCW3g==}
     dev: true
 
-  /marked@5.0.1:
-    resolution: {integrity: sha512-Nn9peC4lvIZdcfp8Uze6xk4ZYowkcj/K6+e/6rLHadhtjqeip/bYRxMgt3124IGGJ3RPs2uX5YVmAGbUutY18g==}
+  /marked@5.0.2:
+    resolution: {integrity: sha512-TXksm9GwqXCRNbFUZmMtqNLvy3K2cQHuWmyBDLOrY1e6i9UvZpOTJXoz7fBjYkJkaUFzV9hBFxMuZSyQt8R6KQ==}
     engines: {node: '>= 18'}
     hasBin: true
     dev: false
