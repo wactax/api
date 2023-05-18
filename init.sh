@@ -4,6 +4,8 @@ DIR=$(dirname $(realpath "$0"))
 cd $DIR
 set -ex
 
+rm -rf $HOME/.cache/pg/uint
+
 if ! [ -x "$(command -v cargo)" ]; then
   PATH_add $HOME/.cargo/bin
   if ! [ -x "$(command -v cargo)" ]; then
