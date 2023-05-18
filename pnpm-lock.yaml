@@ -23,8 +23,8 @@ dependencies:
     specifier: ^0.0.1
     version: 0.0.1
   '@w5/lib':
-    specifier: link:/Users/z/wac.tax/rust/lib
-    version: link:../../../Users/z/wac.tax/rust/lib
+    specifier: ^0.0.6
+    version: 0.0.6
   '@w5/loader':
     specifier: ^0.0.3
     version: 0.0.3
@@ -583,6 +583,144 @@ packages:
   /@w5/lang@0.0.5:
     resolution: {integrity: sha512-Yqs0nTOQvxrEXURkFEbxMKUyxFC0dn9+kQLHsWve2JMLtQfV9xN+NaEgcJj3LqaciwoIDfURjRlitWyVnCXIig==}
     dev: true
+
+  /@w5/lib-android-arm-eabi@0.0.6:
+    resolution: {integrity: sha512-Wo6/d2QS6uunVlxE97Aj/SPNp+WH3zM0wwd1Oj+QKKy87GoCwvBGGv4n688mAIp88gJ0o7erlSIPV9aNpynYSA==}
+    engines: {node: '>= 10'}
+    cpu: [arm]
+    os: [android]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/lib-android-arm64@0.0.6:
+    resolution: {integrity: sha512-Bg3Hab2u9fW/2o1vTSutt2rBTPXeVDWGw2f7jpkJEch6mxwz7Ga+jfYj0ysTMtWlg3R+4Be8Fg5SMQxf1NLg1g==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [android]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/lib-darwin-arm64@0.0.6:
+    resolution: {integrity: sha512-2CtMJKDELxZXhE2UJuXFbcEbyooHn2GDc4T97KUFYPO78px0PqN1X4IlqxpRFUJNSQT+8hIZ7uEH1pymqL/rDw==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/lib-darwin-universal@0.0.6:
+    resolution: {integrity: sha512-SpMqFY4xWVWefOMC9FK4foDCneaR5ERAWj+xw+0MLwH5lBqt5sja7yuK15XZTLF1Ak5w4qcrBMC/IcuARzu4Ug==}
+    engines: {node: '>= 10'}
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/lib-darwin-x64@0.0.6:
+    resolution: {integrity: sha512-AP43SFSyZzQ2MQdsOsCwIEgMgBGJ0hLys8PrHq6J/+mm2hwQUIlMZNRyFRM/8s1KfpEi0GHSsNpGFsW8prjhiA==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/lib-freebsd-x64@0.0.6:
+    resolution: {integrity: sha512-Px6QrcVKj8FcU7BWMorBp6jXZ3Bkic5Kj3+O/dCEC5OM04aX3cXZqN6zcjW2ghDuWTjrvCd6mrcliqUE4d8nDw==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [freebsd]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/lib-linux-arm-gnueabihf@0.0.6:
+    resolution: {integrity: sha512-VN57WiLGMkdvCAFPcWjYmFcUQ3W+t+HEVjjDdP8HFNCMqILGs6qkbRyduLYTIVEXOZB6Du9my7KNJNT6brOIoQ==}
+    engines: {node: '>= 10'}
+    cpu: [arm]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/lib-linux-arm64-gnu@0.0.6:
+    resolution: {integrity: sha512-QJsK3AwcxuheE4RM7RlveJbuYwVIWLtE0mTg4+SZ7eCA0MpBW3tUxCi6vR40+BX9BgPhCeSAfSu1o7DZ0J/VRQ==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/lib-linux-arm64-musl@0.0.6:
+    resolution: {integrity: sha512-0s5KFYSjDxNJe+foEGFq2IpJn7zw4QSK+Z1ks+7vfFCy+CflFErJV4oJp7hpjoBYyigy3s+otQP+DjiODyyPkw==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/lib-linux-x64-gnu@0.0.6:
+    resolution: {integrity: sha512-Q4ZVZN/pgCiJHCFxIQbyJyfujNxDtp2+U0ssrUcHVG/AMAcgnb84uUnLqSXuFBOz7XADlUv7HobfvwLEUGOQuA==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/lib-linux-x64-musl@0.0.6:
+    resolution: {integrity: sha512-a+B8rG5tDKrVBNZQaLrYWztczyQ18jlBSP/ehCOa5wzNW3l/I5Swa0ZEb9B0XhW0owVulPeKkIdHyputoG+EVQ==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/lib-win32-arm64-msvc@0.0.6:
+    resolution: {integrity: sha512-YfzP1/mosIRnBS78Kv7OTv1uE0FrPt+SuIBfKvwzeuVuJi0TIMz5JKJP7aGdkC0vivwUPa6hFqmlYMuur/JuIQ==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/lib-win32-x64-msvc@0.0.6:
+    resolution: {integrity: sha512-/ZHa1I0vu9qXctKQDH7JwTputJzQUu/cUsGEZWxRuexTFM86tst93d67GKPzu9g2oute/HrqVa5FE0XDvMbgtg==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@w5/lib@0.0.6:
+    resolution: {integrity: sha512-Z67aGSpZ9fvIDO1Hq5ivKBsT0lr8PjhrGHYpdrlKmFTCXJ3jzUaoFj2+wmIA1rzgKRB+UeUfSNUFzJvabSPJ2Q==}
+    engines: {node: '>= 10'}
+    dependencies:
+      '@w5/u8': 0.0.1
+      '@w5/utf8': 0.0.3
+    optionalDependencies:
+      '@w5/lib-android-arm-eabi': 0.0.6
+      '@w5/lib-android-arm64': 0.0.6
+      '@w5/lib-darwin-arm64': 0.0.6
+      '@w5/lib-darwin-universal': 0.0.6
+      '@w5/lib-darwin-x64': 0.0.6
+      '@w5/lib-freebsd-x64': 0.0.6
+      '@w5/lib-linux-arm-gnueabihf': 0.0.6
+      '@w5/lib-linux-arm64-gnu': 0.0.6
+      '@w5/lib-linux-arm64-musl': 0.0.6
+      '@w5/lib-linux-x64-gnu': 0.0.6
+      '@w5/lib-linux-x64-musl': 0.0.6
+      '@w5/lib-win32-arm64-msvc': 0.0.6
+      '@w5/lib-win32-x64-msvc': 0.0.6
+    dev: false
 
   /@w5/loader@0.0.3:
     resolution: {integrity: sha512-16TxBxTVCG2q1bxjslQjfXRU+5b9cSfDGeIYjE2LhJauj/7p5jzj1lhr3xWQ/qR/iEcpws56jxIMyZCkY4/msw==}
