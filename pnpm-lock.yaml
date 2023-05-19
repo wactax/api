@@ -32,8 +32,8 @@ dependencies:
     specifier: ^0.0.1
     version: 0.0.1
   '@w5/pg':
-    specifier: ^0.0.37
-    version: 0.0.37
+    specifier: ^0.0.38
+    version: 0.0.38
   '@w5/read':
     specifier: ^0.0.1
     version: 0.0.1
@@ -742,14 +742,14 @@ packages:
       msgpackr: 1.9.2
     dev: false
 
-  /@w5/onexit@0.0.4:
-    resolution: {integrity: sha512-uXEvVXgEStwO7JtJOJE4rUAcLn7Uf3gUCAcCvls0koPQKXALq40ptJTcNeEmUlya4wNj2OUmbA1zVxMtdWj5yA==}
+  /@w5/onexit@0.0.5:
+    resolution: {integrity: sha512-e/VowRVgrOMGbd//T4VQ7Vi6riicePsM0GOj/eh1MxMX6Ikv7lVCynQmsERrrEiRLyeWkN3ZI+T3/pS68At5rg==}
     dev: false
 
-  /@w5/pg@0.0.37:
-    resolution: {integrity: sha512-OLNsncvYKQ96LAxIepDy49kCmn9/na4k64TKoKUpP21umEIp9yyHVTjzz1GsIbph8gaLjCtYWi/ffkl+QNZT8g==}
+  /@w5/pg@0.0.38:
+    resolution: {integrity: sha512-cB28ovuOPUNpSzzN+XgEsMydU8ga3GD56l1elG7/pAo97/jn63jaAj16YSHzVf8LM722bkWNSVpvmLGVbdbtJg==}
     dependencies:
-      '@w5/onexit': 0.0.4
+      '@w5/onexit': 0.0.5
       '@w5/write': 0.0.1
       postgres: 3.3.4
     dev: false
