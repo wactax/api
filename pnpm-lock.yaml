@@ -19,6 +19,9 @@ dependencies:
   '@w5/dot':
     specifier: ^0.0.2
     version: 0.0.2
+  '@w5/gid':
+    specifier: ^0.0.2
+    version: 0.0.2
   '@w5/jsext':
     specifier: ^0.0.1
     version: 0.0.1
@@ -525,6 +528,10 @@ packages:
 
   /@w5/dot@0.0.2:
     resolution: {integrity: sha512-F6Ihmj2XeJ7pvYDGlWj5lK+BTbqB8HXlLz7IkF/EAUe5vtQmD9HGCGy7MP8FFwER7h8aXilpd0kN9/2zGlh0JQ==}
+    dev: false
+
+  /@w5/gid@0.0.2:
+    resolution: {integrity: sha512-5bmSO8JWHmhtdPWntsL5Izlj5tAOkAxctz0sYonaSIijcoBpzjGHrGq0+3Iu4v6FNRfMmLtCWhQniwjbuHpAeQ==}
     dev: false
 
   /@w5/htm2md@0.0.1:
