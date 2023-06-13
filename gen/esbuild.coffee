@@ -28,7 +28,7 @@ bundle = (js)=>
     entryPoints: [
       js
     ]
-    pkgins: [
+    plugins: [
       {
         name: 'resolve-js',
         setup: (build) =>
