@@ -10,6 +10,9 @@ dependencies:
   '@w5/camel':
     specifier: ^0.0.1
     version: 0.0.1
+  '@w5/cid':
+    specifier: ^0.0.1
+    version: 0.0.1
   '@w5/console':
     specifier: ^0.0.1
     version: 0.0.1
@@ -493,6 +496,10 @@ packages:
 
   /@w5/camel@0.0.1:
     resolution: {integrity: sha512-O67qYWwFJOFKOq7Agpa7bheF+U0j3NKLuVm84eojoOsgpTQuJmLw5VyjD1FcZQvrbVuby7xbVISEBsrWZk+rBQ==}
+
+  /@w5/cid@0.0.1:
+    resolution: {integrity: sha512-BIppMN9V5UWgmOdpttAX7sGY7Ilv5FStC4flF0+uATrYSTSx8w+tR/HixeE7L/bGZ1uV2cWknSRPf3EYfXU+eA==}
+    dev: false
 
   /@w5/coffee_plus@0.0.12:
     resolution: {integrity: sha512-lw+riVAMVyoEr0ROWY7Jpeuv9d5iwCDg3/6YhKzVrIDJ5ggCuG7t/LIe0oZ2SFG/IeT+fNXPJN3g1OeQ/VihKA==}
