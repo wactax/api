@@ -10,9 +10,6 @@ dependencies:
   '@w5/camel':
     specifier: ^0.0.1
     version: 0.0.1
-  '@w5/cid':
-    specifier: ^0.0.1
-    version: 0.0.1
   '@w5/console':
     specifier: ^0.0.1
     version: 0.0.1
@@ -44,8 +41,8 @@ dependencies:
     specifier: ^0.0.1
     version: 0.0.1
   '@w5/redis':
-    specifier: ^0.0.27
-    version: 0.0.27
+    specifier: ^0.0.28
+    version: 0.0.28
   '@w5/render':
     specifier: ^0.0.3
     version: 0.0.3
@@ -497,10 +494,6 @@ packages:
   /@w5/camel@0.0.1:
     resolution: {integrity: sha512-O67qYWwFJOFKOq7Agpa7bheF+U0j3NKLuVm84eojoOsgpTQuJmLw5VyjD1FcZQvrbVuby7xbVISEBsrWZk+rBQ==}
 
-  /@w5/cid@0.0.1:
-    resolution: {integrity: sha512-BIppMN9V5UWgmOdpttAX7sGY7Ilv5FStC4flF0+uATrYSTSx8w+tR/HixeE7L/bGZ1uV2cWknSRPf3EYfXU+eA==}
-    dev: false
-
   /@w5/coffee_plus@0.0.12:
     resolution: {integrity: sha512-lw+riVAMVyoEr0ROWY7Jpeuv9d5iwCDg3/6YhKzVrIDJ5ggCuG7t/LIe0oZ2SFG/IeT+fNXPJN3g1OeQ/VihKA==}
     hasBin: true
@@ -777,12 +770,13 @@ packages:
   /@w5/read@0.0.1:
     resolution: {integrity: sha512-v/D6N/2OCOVHzaYHzoD/SmKn7yuvSZ/Kj7/HrPoWZOoPkXciZtzfsDXh+ShVvf5zIel6FwejM+F35pK2lQGIyg==}
 
-  /@w5/redis@0.0.27:
-    resolution: {integrity: sha512-mX7jBB1ea2DKB+cNjP89822A72ppax5Oo5vGx6Vgdrkpzs3QPusMNGIJYCsL7NswCV0wxfjFZf+AYEzrPBix3Q==}
+  /@w5/redis@0.0.28:
+    resolution: {integrity: sha512-TuTHDKFgM9SZfb35D68Gv1pedf4s04rf5cGffXyfvT6Ev/NP4oe+DBPudlvMGXHbY2ie2/wIzULR9nsRo9pmTw==}
     dependencies:
       '@w5/gid': 0.0.2
       '@w5/onexit': 0.0.8
       '@w5/u8': 0.0.3
+      '@w5/uintbin': 0.0.6
       '@w5/utf8': 0.0.3
       '@w5/xedis': 0.0.34
     dev: false
