@@ -69,8 +69,8 @@ dependencies:
     specifier: ^0.0.1
     version: 0.0.1
   '@w5/time':
-    specifier: ^0.0.5
-    version: 0.0.5
+    specifier: ^0.0.7
+    version: 0.0.7
   '@w5/u8':
     specifier: ^0.0.3
     version: 0.0.3
@@ -111,8 +111,8 @@ dependencies:
     specifier: ^4.17.21
     version: 4.17.21
   marked:
-    specifier: ^5.1.0
-    version: 5.1.0
+    specifier: ^5.1.1
+    version: 5.1.1
   msgpackr:
     specifier: ^1.9.5
     version: 1.9.5
@@ -149,8 +149,8 @@ devDependencies:
     specifier: ^11.1.1
     version: 11.1.1
   zx:
-    specifier: ^7.2.2
-    version: 7.2.2
+    specifier: ^7.2.3
+    version: 7.2.3
 
 packages:
 
@@ -873,8 +873,8 @@ packages:
     resolution: {integrity: sha512-sJsx28+FvlurfQU3LEK6vD0WYp/lDf+vBb9gaNdxmJW/Xu06IRbkWr7/EAj2tQSfmOc4YVOPbdDh/GCPMF0M/Q==}
     dev: false
 
-  /@w5/time@0.0.5:
-    resolution: {integrity: sha512-YqmezpKObdpH0asWR+DCPqTTZ/zrYNDq7nx6ZBOUFUfiMN/vzs/DR0d4c5Mvy4PLqIPzuehIXCtVdEy8p+BuGQ==}
+  /@w5/time@0.0.7:
+    resolution: {integrity: sha512-MoT4suA79aeiyNbfyyfmF2aXElSX0UbZwhzrofALQUpU5mtgfD+5PtEZCiTefzegRGKuKKygCU+VxsX+Pyd+rg==}
     dev: false
 
   /@w5/tran@0.0.1:
@@ -2121,8 +2121,8 @@ packages:
     resolution: {integrity: sha512-CkYQrPYZfWnu/DAmVCpTSX/xHpKZ80eKh2lAkyA6AJTef6bW+6JpbQZN5rofum7da+SyN1bi5ctTm+lTfcCW3g==}
     dev: true
 
-  /marked@5.1.0:
-    resolution: {integrity: sha512-z3/nBe7aTI8JDszlYLk7dDVNpngjw0o1ZJtrA9kIfkkHcIF+xH7mO23aISl4WxP83elU+MFROgahqdpd05lMEQ==}
+  /marked@5.1.1:
+    resolution: {integrity: sha512-bTmmGdEINWmOMDjnPWDxGPQ4qkDLeYorpYbEtFOXzOruTwUE671q4Guiuchn4N8h/v6NGd7916kXsm3Iz4iUSg==}
     engines: {node: '>= 18'}
     hasBin: true
     dev: false
@@ -3048,8 +3048,8 @@ packages:
       y18n: 5.0.8
       yargs-parser: 21.1.1
 
-  /zx@7.2.2:
-    resolution: {integrity: sha512-50Gjicd6ijTt7Zcz5fNX+rHrmE0uVqC+X6lYKhf2Cu8wIxDpNIzXwTmzchNdW+JY3LFsRcU43B1lHE4HBMmKgQ==}
+  /zx@7.2.3:
+    resolution: {integrity: sha512-QODu38nLlYXg/B/Gw7ZKiZrvPkEsjPN3LQ5JFXM7h0JvwhEdPNNl+4Ao1y4+o3CLNiDUNcwzQYZ4/Ko7kKzCMA==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     dependencies:
