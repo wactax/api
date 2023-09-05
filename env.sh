@@ -4,7 +4,7 @@ set -e
 
 env_sh() {
   local nowdir=$(pwd)
-  cd $(dirname "${BASH_SOURCE[0]}")/../conf/conn
+  cd "$(realpath $BASH_SOURCE[0])"/../conf/conn
   local i
   for i in $@; do
     set -o allexport
