@@ -1,12 +1,9 @@
 #!/usr/bin/env bash
 
-DIR=$(dirname "${BASH_SOURCE[0]}")
-
-cd $DIR
 set -e
 
 env_sh() {
-  cd $DIR/../conf/conn
+  cd $(dirname "${BASH_SOURCE[0]}")/../conf/conn
   local i
   for i in $@; do
     set -o allexport
@@ -14,7 +11,6 @@ env_sh() {
     set +o allexport
   done
 
-  cd $DIR
   unset -f env_sh
 }
 
