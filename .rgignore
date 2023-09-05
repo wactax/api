@@ -1,0 +1,6 @@
+!src/**/*
+src/user/auth.mail/cron/week/mailban.json
+pnpm-lock.yaml
+node_modules
+*.map
+/lib/
