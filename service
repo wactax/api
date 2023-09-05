@@ -1,5 +1,5 @@
 [Unit]
-Description=Clip Txt Search
+Description=xxai.art api
 After=network.target
 
 [Service]
