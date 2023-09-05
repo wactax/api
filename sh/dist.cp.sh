@@ -25,15 +25,4 @@ fi
 cd $API
 pnpm i --product
 cp $DIR/env.sh .
-
-if [ ! -f "run.sh" ]; then
-  cat >./run.sh <<EOF
-#!/usr/bin/env bash
-WORKSPACE=$(realpath $0) && DIR=${DIR%/*}
-cd $WORKSPACE
-source ./env.sh
-exec $WORKSPACE/_/Http/main.js
-EOF
-
-  chmod +x run.sh
-fi
+cp $DIR/sh/dist.run.sh .
