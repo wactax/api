@@ -29,10 +29,10 @@ cp $DIR/env.sh .
 if [ ! -f "run.sh" ]; then
   cat >./run.sh <<EOF
 #!/usr/bin/env bash
-DIR=$(realpath $0) && DIR=${DIR%/*}
-cd $DIR
+WORKSPACE=$(realpath $0) && DIR=${DIR%/*}
+cd $WORKSPACE
 source ./env.sh
-exec ./_/Http/main.js
+exec $WORKSPACE/_/Http/main.js
 EOF
 
   chmod +x run.sh
