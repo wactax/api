@@ -25,4 +25,4 @@ fi
 cd $API
 pnpm i --product
 cp $DIR/env.sh .
-cp $DIR/sh/dist.run.sh .
+cp $DIR/sh/dist.run.sh run.sh
