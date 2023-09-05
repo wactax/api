@@ -3,6 +3,7 @@
 set -e
 
 env_sh() {
+  local nowdir=$(pwd)
   cd $(dirname "${BASH_SOURCE[0]}")/../conf/conn
   local i
   for i in $@; do
@@ -10,7 +11,7 @@ env_sh() {
     source "$i".sh
     set +o allexport
   done
-
+  cd $nowdir
   unset -f env_sh
 }
 
