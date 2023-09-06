@@ -51,8 +51,8 @@ dependencies:
     specifier: ^0.0.3
     version: 0.0.3
   '@w5/req':
-    specifier: ^0.0.11
-    version: 0.0.11
+    specifier: ^0.0.13
+    version: 0.0.13
   '@w5/retry':
     specifier: ^0.0.1
     version: 0.0.1
@@ -111,11 +111,11 @@ dependencies:
     specifier: ^4.17.21
     version: 4.17.21
   marked:
-    specifier: ^7.0.4
-    version: 7.0.4
+    specifier: ^8.0.0
+    version: 8.0.0
   msgpackr:
-    specifier: ^1.9.7
-    version: 1.9.7
+    specifier: ^1.9.8
+    version: 1.9.8
   postgres:
     specifier: ^3.3.5
     version: 3.3.5
@@ -125,8 +125,8 @@ dependencies:
 
 devDependencies:
   '@w5/coffee_plus':
-    specifier: ^0.0.13
-    version: 0.0.13
+    specifier: ^0.0.17
+    version: 0.0.17
   '@w5/i18n':
     specifier: ^0.0.92
     version: 0.0.92
@@ -556,8 +556,8 @@ packages:
       yargs: 17.7.2
     dev: false
 
-  /@w5/coffee_plus@0.0.13:
-    resolution: {integrity: sha512-pCrXApQwRMJ8t+lRb+lOpSEI2/qPjMng+c5ZxF6VbX/cIWTnqwOmKrF7v01cFmY5qzFzOq5/8jJmkspyAcI4Rg==}
+  /@w5/coffee_plus@0.0.17:
+    resolution: {integrity: sha512-7py6N46yyQTnD2seGQ2K226EatmKq2SzEYQ/UI4E7AgrubG8bt87vQ2jnLQI1mDlVyJOydbvZRAto6l5I4/oPQ==}
     hasBin: true
     dependencies:
       '@w5/camel': 0.0.1
@@ -803,7 +803,7 @@ packages:
   /@w5/msgpack@0.0.1:
     resolution: {integrity: sha512-SLHg+lhXOzPZYXto3zYocJ7YM6acmDv+HlnpkM600QoJeYDET9osQeV44XrT2egptykHTjRSxyyhR+4wEc5lkw==}
     dependencies:
-      msgpackr: 1.9.7
+      msgpackr: 1.9.8
     dev: false
 
   /@w5/onexit@0.0.8:
@@ -847,10 +847,22 @@ packages:
     dependencies:
       '@w5/retry': 0.0.1
       https-proxy-agent: 6.2.1
-      msgpackr: 1.9.7
+      msgpackr: 1.9.8
       node-fetch: 3.3.1
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /@w5/req@0.0.13:
+    resolution: {integrity: sha512-DxJdknX/7rgqNbcXrQkzuqri//2Xv2OkLAs81fbPO8hNgymYtvDC1+ZnhAW4dB6EkIXHfX7weIbIJ5aEc19MvQ==}
+    dependencies:
+      '@w5/retry': 0.0.1
+      https-proxy-agent: 7.0.2
+      msgpackr: 1.9.8
+      node-fetch: 3.3.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
 
   /@w5/retry@0.0.1:
     resolution: {integrity: sha512-EO+0hpJ17QZ9JmJLvCInwYHIX15iCyrcuB10nBJ4/8m+CByeuWnTwhiHkChEWQ9c0YRLkw1U8WGYVq48I5KbBg==}
@@ -1873,6 +1885,17 @@ packages:
       debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /https-proxy-agent@7.0.2:
+    resolution: {integrity: sha512-NmLNjm6ucYwtcUmL7JQC1ZQ57LmHP4lT15FQ8D61nak1rO6DH+fz5qNK2Ap5UN4ZapYICE3/0KodcLYSPsPbaA==}
+    engines: {node: '>= 14'}
+    dependencies:
+      agent-base: 7.1.0
+      debug: 4.3.4
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
 
   /humanize-ms@1.2.1:
     resolution: {integrity: sha512-Fl70vYtsAFb/C06PTS9dZBo7ihau+Tu/DNCk/OyHhea07S+aeMWpFFkUaXRa8fI+ScZbEI8dfSxwY7gxZ9SAVQ==}
@@ -2148,8 +2171,8 @@ packages:
     resolution: {integrity: sha512-CkYQrPYZfWnu/DAmVCpTSX/xHpKZ80eKh2lAkyA6AJTef6bW+6JpbQZN5rofum7da+SyN1bi5ctTm+lTfcCW3g==}
     dev: true
 
-  /marked@7.0.4:
-    resolution: {integrity: sha512-t8eP0dXRJMtMvBojtkcsA7n48BkauktUKzfkPSCq85ZMTJ0v76Rke4DYz01omYpPTUh4p/f7HePgRo3ebG8+QQ==}
+  /marked@8.0.0:
+    resolution: {integrity: sha512-RI/D5csFVreNrFchdKFSdV38GDHJdD7OdmbNWYzGvApPb0A9pyypgfHC/FBH4ugmRE8cr7yg/TH7tu8585eMhA==}
     engines: {node: '>= 16'}
     hasBin: true
     dev: false
@@ -2290,8 +2313,8 @@ packages:
       '@msgpackr-extract/msgpackr-extract-win32-x64': 3.0.2
     optional: true
 
-  /msgpackr@1.9.7:
-    resolution: {integrity: sha512-baUNaLvKQvVhzfWTNO07njwbZK1Lxjtb0P1JL6/EhXdLTHzR57/mZqqJC39TtQKvOmkJA4pcejS4dbk7BDgLLA==}
+  /msgpackr@1.9.8:
+    resolution: {integrity: sha512-dQvfSMSIQ9kXXQTlJFDq+f7J3RrmydhI6Tn23lFy7BItp7zDR3nH70CHk2QIfs2copLSaKRv/PPjMbNSTFu2hA==}
     optionalDependencies:
       msgpackr-extract: 3.0.2
 
