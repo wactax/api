@@ -2,13 +2,15 @@
 
 DIR=$(dirname $(realpath "$0"))
 cd $DIR
-echo $$ > .run.pid
+echo $$ >.run.pid
 
 if [ -n "$1" ]; then
   cmd=$1
 else
   cmd=./lib/_/Http/main.js
 fi
+export NODE_PATH=$DIR/node_modules
+
 timeout=30
 while [ ! -f "$cmd" ]; do
   if [ "$timeout" == 0 ]; then
