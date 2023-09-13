@@ -8,7 +8,7 @@ set -ex
 
 name=xxai-api
 
-service_sh=/opt/xxai.art/api/run.sh
+service_sh=/opt/xxai.art/api/srv.sh
 
 chmod +x $service_sh
 
