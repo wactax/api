@@ -21,7 +21,7 @@ bundle = (js)=>
   kind = basename(dir)
   outfile = join dirname(ROOT), 'docker','wac.tax', kind, js
   r = await build({
-    target:"node18"
+    target:'node'+ process.version.split('.')[0].slice(1)
     absWorkingDir: dir
     bundle: true
     logLevel: "info"
